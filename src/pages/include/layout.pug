@@ -1,0 +1,20 @@
+doctype html
+html(lang="ru")
+    block sharedVars
+    head
+        title #{pageTitle}
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(charset='utf-8')
+    body#start(class=`${bodyAdditionClass}`)
+        header.header
+
+
+
+        section.test
+        main(class=`${pageAdditionClass}`)
+            block content
+
+
+
+
+        footer.footer
