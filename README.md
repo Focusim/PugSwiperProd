@@ -1,5 +1,6 @@
 # Webpack 4 Configuration
 
++Swiper
 
 ### Запуск сборки ###
 
